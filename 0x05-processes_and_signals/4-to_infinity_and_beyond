@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-# Displays a list of currently running processes containing the bash keyword.
-# shellcheck disable=SC2009
+# Displays "To infinity and beyond" indefinitely with
+#+ a sleep 2 in between each iteration.
 
-ps -aux | grep bash
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+done
